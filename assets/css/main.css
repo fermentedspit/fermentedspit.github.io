@@ -108,3 +108,7 @@ body, html {
       width: 100% !important;
       text-align: center !important;
   }
+
+  .form-field-wrapper[style]{
+      width: 98% !important;
+  }
