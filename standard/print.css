@@ -1,0 +1,565 @@
+/* RackForms CSS Version. 3.7 Build 912 */
+/* Be sure to duplicate any changes made in this file to print.css as well! */
+body {
+	font-size: 9pt;
+}
+
+/* text styles */
+.section-head {
+	font-size: 18px;
+}
+
+.confirm-text {
+	font-size: 18px;
+}
+
+.body-copy {
+	font-size: 12px;
+	font-weight: normal;
+}
+
+.heading-main {
+	font-size: 12px;
+}
+
+.heading-sub {
+	font-size: 12px;
+	font-weight: normal;
+}
+
+.req-star {
+	color: #CC0000;
+	font-weight: bold;
+	margin-left: 2px;
+	font-size: inherit;
+}
+
+.helper {
+	font-size: 7pt;
+	font-weight: normal;
+	margin-top: 2px;
+}
+
+.tailtext {
+	font-size: 75%;
+}
+
+/* character counters */
+.count-helper {
+	font-size: 7pt;
+	font-weight: normal;
+	margin-top: 2px;
+	color: #888888;
+}
+
+.count-helper-bold {
+	font-size: 7pt;
+	font-weight: bold;
+	margin-top: 2px;
+}
+
+.count-helper-error {
+	font-size: 7pt;
+	font-weight: bold;
+	margin-top: 2px;
+	color: #CC0000;
+}
+
+/* Add custom paragraph spacing here */
+p {
+	margin-bottom: 10px;
+	margin-top: 0px;
+	padding: 0;
+}
+
+/* form element styles | edit :focus for custom over states */
+input[type="text"] {
+	border: 1px solid #CCCCCC;
+}
+
+input[type="password"] {
+	border: 1px solid #CCCCCC;
+}
+
+input[type="submit"] {
+	border: 1px solid #CCCCCC;
+	cursor: pointer;
+}
+
+select {
+	border: 1px solid #CCCCCC;
+}
+
+text {
+	border: 1px solid #CCCCCC;
+}
+
+textarea {
+	border: 1px solid #CCCCCC;
+}
+
+/* focus styles */
+input:focus {
+	
+}
+
+select:focus {
+	
+}
+
+text:focus {
+	
+}
+
+textarea:focus {
+	
+}
+
+/* main container */
+.rackforms-output-sortable {
+	color: #222222;
+}
+
+.rackforms-output {
+	position: relative;
+	color: #222222;
+}
+
+.rackforms-output-div {
+	position: relative;
+	color: #222222;
+}
+/* Build 653 - Better match Confirmaiton Pages style to form pages */
+.rackforms-output-div li {
+	margin-bottom: 5px;
+	padding: 2px;
+	list-style-position: outside;
+}
+
+/* Build 908 - Box Sizing Compatible With Responsive Design, Same Style Used In Final Output */
+.rackforms-output-div input[ "type=text "] {
+	box-sizing: border-box;
+}
+
+.rackforms-output-div select {
+	box-sizing: border-box;
+}
+
+.rackforms-output-div textarea {
+	box-sizing: border-box;
+}
+
+.rackforms-output-div input {
+	box-sizing: border-box;
+}
+
+.fb-sortable-clear {
+	
+}
+
+/* AJAX */
+.fb-ajax-loader {
+	color: #dedede;
+}
+
+/* list item */
+/* li { } */
+/*.rackforms-output-sortable ul { margin:10px 5px 10px 5px; padding:5px; width:96%; list-style-position:outside; } PRE-645 */
+.rackforms-output-sortable ul {
+	margin: 0px;
+	padding: 0px;
+}
+
+.rackforms-output-sortable li {
+	margin-bottom: 5px;
+	padding: 2px;
+	list-style-position: outside;
+}
+
+.rackforms-output  ul {
+	margin: 10px 5px 10px 5px;
+	padding: 5px;
+	width: 96%;
+	list-style-position: outside;
+}
+
+.rackforms-output li {
+	margin-bottom: 5px;
+	padding: 2px;
+	list-style-position: outside;
+}
+
+/* Form Components */
+form label {
+	font-size: inherit;
+	font-weight: normal;
+	text-align: left;
+}
+
+/* Webcam */
+.webcam-action-button {
+	
+}
+
+.webcam-viewer {
+	margin-bottom: 5px;
+}
+
+.webcam-snapshot {
+	margin-bottom: 5px;
+}
+
+.rf-multiselect-item-label {
+	
+}
+
+/* Table Layout Mode Spacing */
+.fb-tabelmode-clear {
+	
+}
+
+.fb-tablemode-label {
+	
+}
+
+/* Table Layout Mode */
+.fb-tablemode-element {
+	
+}
+
+.mobile-inline {
+	display: none;
+}
+
+.mobile-block {
+	display: none;
+}
+
+.desktop-inline {
+	display: inline;
+}
+
+.desktop-block {
+	display: block;
+}
+
+.desktop-cell {
+	display: table-cell;
+}
+
+@media screen and (max-width: 520px) {
+	.fb-tablemode-element {
+		width: 100% !important;
+	}
+	.rackforms-output-sortable .fb-checkbox-wrapper {
+		width: 100% !important;
+	}
+	.rackforms-output-sortable .body-copy {
+		width: 100% !important;
+	}
+	.mobile-inline {
+		display: inline;
+	}
+	.mobile-block {
+		display: block;
+	}
+	.desktop-block {
+		display: none;
+	}
+	.desktop-cell {
+		display: none;
+	}
+	.desktop-inline {
+		display: none;
+	}
+}
+
+/* Datagrid */
+.datagrid th {
+	font-size: 12px;
+}
+
+.datagrid-row-label {
+	font-size: 12px;
+}
+
+/* DIV based grid */
+.datagrid-wrapper {
+	border-bottom: 10px solid #f8f8f8;
+	border-top: 10px solid #529bcc;
+	font-family: Arial, Gadget, sans-serif;
+	margin: 60px 0;
+	padding: 5px;
+}
+
+.datagrid-label-row {
+	color: #999;
+	width: 13%;
+	padding: 8px 15px 6px;
+}
+
+.datagrid-label-header {
+	color: #999;
+	width: 20%;
+	padding: 8px 15px 6px;
+}
+
+.datagrid-row-item {
+	color: #529BCC;
+	width: 20%;
+	padding: 8px 15px 6px;
+}
+
+/* PDF Page Breaks */
+div.pdf-page-break {
+	color: #fff;
+	page-break-before: always;
+}
+
+/* PDF based grid */
+.datagrid-pdf th {
+	font-size: 12px;
+}
+
+.datagrid-pdf-row-label {
+	font-size: 12px;
+}
+
+.datagrid-pdf-wrapper {
+	/*border-top: 10px solid #529bcc !important;
+  border-bottom: 5px solid #529bcc !important;*/
+	font-family: Arial, Gadget, sans-serif;
+	margin: 5px 0;
+	padding: 2px 5px 30px 2px;
+	width: 100%; /* 795 For Full Page PDF Display */
+}
+
+.datagrid-pdf-label-row {
+	color: #999;
+	padding: 8px 15px 6px;
+}
+
+.datagrid-pdf-label-header {
+	color: #999;
+	padding: 8px 15px 6px;
+}
+
+.datagrid-pdf-row-item {
+	color: #529BCC;
+	padding: 8px 15px 6px;
+	border-bottom: 1px solid #f2f2f2;
+	font-size: 12pt;
+}
+
+fieldset {
+	border: 1px solid #a2a2a2;
+}
+
+/* error messages, display */
+span.errormsg {
+	font-weight: bold;
+	font-size: 85%;
+	color: #cc0000;
+	padding-left: 2px;
+}
+/* php error element */
+.err-msg {
+	font-size: 12px;
+	font-weight: bold;
+	color: #CC0000;
+	padding: 5px;
+	clear: both;
+}
+
+div.error {
+	border-radius: 5px;
+	padding: 1px;
+}
+
+/* element programmable styles */
+.fieldwidth-0 {
+	width: auto;
+}
+
+.fieldwidth-1 {
+	width: 100px;
+}
+
+.fieldwidth-2 {
+	width: 200px;
+}
+
+.fieldwidth-3 {
+	width: 300px;
+}
+
+.fieldwidth-4 {
+	width: 400px;
+}
+
+/* moz link outline */
+:focus {
+	-moz-outline-style: none;
+}
+
+/* Dynamic Form Elements */
+.dynamic-form-elements-label {
+	
+}
+
+.dynamic-form-elements-field-wrapper {
+	
+}
+
+.dynamic-form-elements-text {
+	color: #444444;
+	height: 16px;
+	width: 148px;
+}
+
+/* jQuery Validate */
+label.error {
+	background-color: red;
+	border-radius: 5px 5px 5px 5px;
+	color: white;
+	float: none;
+	font-weight: normal;
+	margin-left: 10px;
+	padding: 5px 12px;
+}
+
+.ASP_RequiredField {
+	color: red;
+}
+
+/* Change this style for any images brought in via the Image elements Database Image Properties setting. */
+.rf-form-image {
+	padding: 3px;
+	border: 1px solid #f2f2f2;
+	margin: 3px;
+}
+
+/* Tooltips */
+.tooltip-button {
+	vertical-align: middle;
+}
+
+/* PDF Upload Styles */
+.PDF_FormField_Text {
+	border: 0;
+	background-color: #dce4fe;
+}
+
+.PDF_FormField_Textarea {
+	border: 0;
+	background-color: #dce4fe;
+}
+
+/* Password Strength */
+#pws_progressbar {
+	background-color: white;
+	border-left: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+	border-top: 1px solid #ccc;
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+	display: block;
+	height: 48px;
+	margin-top: 5px;
+	overflow: hidden;
+	width: 388px;
+}
+
+#pws_progress {
+	display: block;
+	height: 100px;
+	width: 0%;
+}
+
+.pws_progressbarValid {
+	background-color: green;
+	background-image: -o-linear-gradient(-90deg, #8AD702 0%, #389100 100%);
+	background-image: -moz-linear-gradient(-90deg, #8AD702 0%, #389100 100%);
+	background-image: -webkit-linear-gradient(-90deg, #8AD702 0%, #389100 100%);
+	background-image: -ms-linear-gradient(-90deg, #8AD702 0%, #389100 100%);
+	background-image: linear-gradient(-90deg, #8AD702 0%, #389100 100%);
+}
+
+.pws_progressbarInvalid {
+	background-color: red;
+	background-image: -o-linear-gradient(-90deg, #F94046 0%, #92080B 100%);
+	background-image: -moz-linear-gradient(-90deg, #F94046 0%, #92080B 100%);
+	background-image: -webkit-linear-gradient(-90deg, #F94046 0%, #92080B 100%);
+	background-image: -ms-linear-gradient(-90deg, #F94046 0%, #92080B 100%);
+	background-image: linear-gradient(-90deg, #F94046 0%, #92080B 100%);
+}
+
+#pws_status {
+	background-color: white;
+	border: 1px solid #ccc;
+	border-bottom-left-radius: 8px;
+	border-bottom-right-radius: 8px;
+	height: 78px;
+	width: 388px;
+}
+
+#pws_complexityLabel {
+	color: #666;
+	font-size: 20px;
+	line-height: 30px;
+	margin-top: -21px;
+	text-align: center;
+	width: 100%;
+}
+
+#pws_complexity {
+	color: #444;
+	font-family: "Helvetica Neue", "Helvetica", Arial, sans-serif;
+	font-size: 45px;
+	font-weight: bold;
+	line-height: 74px;
+	margin-top: -11px;
+	text-align: center;
+	width: 100%;
+}
+
+/* Survey Trigger */
+.survey-trigger-text-area {
+	border: 1px solid #c9c9c9;
+	border-radius: 3px;
+	color: #444444;
+	font-family: inherit;
+	font-size: 10pt;
+	height: 78px;
+	padding: 4px;
+	width: 280px;
+}
+
+.survey-trigger-text-field {
+	border: 1px solid #c9c9c9;
+	border-radius: 3px;
+	color: #444444;
+	font-size: 10pt;
+	height: 22px;
+	padding: 4px;
+	width: 280px;
+}
+
+.survey-trigger-required {
+	color: red;
+	font-size: 10pt;
+}
+
+.survey-trigger-label {
+	color: #444;
+	font-size: 10pt;
+}
+
+.survey-trigger-row {
+	
+}
+
+.survey-trigger-td {
+	border-top: 1px solid #f1f1f1;
+	padding: 10px;
+}
