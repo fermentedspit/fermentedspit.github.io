@@ -677,7 +677,10 @@ $PDF_LIBRARY = "";
 <title>Submission Page</title>
 <link rel="stylesheet" type="text/css" href="<?php echo $_SESSION['MAX_PATH']; ?>formpage.css" media="screen" />
 <link rel="stylesheet" type="text/css" href="<?php echo $_SESSION['MAX_PATH']; ?>print.css" media="print" />
-<link rel="stylesheet" type="text/css" href="../assets/css/main.css" media="screen" />
+<!-- <link rel="stylesheet" type="text/css" href="../assets/css/main.css" media="screen" /> -->
+<link rel="stylesheet" media="(max-width:600px)" href="../assets/css/main-600.css">
+<link rel="stylesheet" media="(min-width:601px)" href="../assets/css/main-601.css">    
+
 
 <script type="text/javascript" src="<?php echo $_SESSION['MAX_PATH']; ?>lib/utility.js"></script>
 
@@ -708,7 +711,7 @@ $enabled = '';
 ?>
 
 <!-- Form Field Start -->
-<div id="fb_fld-244586" rf-field="true" class="" style="float:left; width:500px; margin-bottom:5px; <?php echo $visible; ?>" >
+<div id="fb_fld-244586" rf-field="true" class="" > <!--style="float:left; width:500px; margin-bottom:5px; " -->
 
 <?php
 // Process Array Variables.

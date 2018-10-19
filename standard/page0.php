@@ -139,7 +139,10 @@ $PDF_LIBRARY = "";
 <title>Form Page</title>
 <link rel="stylesheet" type="text/css" href="formpage.css" media="screen" />
 <link rel="stylesheet" type="text/css" href="<?php echo $_SESSION['MAX_PATH']; ?>print.css" media="print" />
-<link rel="stylesheet" type="text/css" href="../assets/css/main.css" media="screen">
+<!-- <link rel="stylesheet" type="text/css" href="../assets/css/main.css" media="screen"> -->
+<link rel="stylesheet" media="(max-width:600px)" href="../assets/css/main-600.css">
+<link rel="stylesheet" media="(min-width:601px)" href="../assets/css/main-601.css">    
+
 
 
 
